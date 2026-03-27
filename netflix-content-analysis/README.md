@@ -60,15 +60,15 @@ netflix_titles.csv
 
 ## Tools Used
 
-Power BI - Dashboard design \& visualisation  
-Power Query - Data cleaning \& transformation  
-DAX - Calculated measures \& KPIs
+**Power BI -** Dashboard design \& visualisation  
+**Power Query -** Data cleaning \& transformation  
+**DAX -** Calculated measures \& KPIs
 
 ---
 
 ## Project Workflow
 
-This project follows a typical data analytics workflow:
+This project follows a structured data analytics workflow:
 
 **1. Data understanding**  
 Explored dataset structure, key fields and data quality issues
@@ -100,7 +100,7 @@ Explored the dataset through visuals to identify the most useful questions the d
 
 **6. Interaction and Refinement**
 - Enabled cross-filtering between visuals
-- Enabled cross-filtering between visuals
+- Tested filters (country, type) and refined layout for usability
 
 ---
 
@@ -114,7 +114,7 @@ The Power BI dashboard provides insights into:
 - **Area Chart —** Content growth over time split by Movies and TV Shows
 - **World Map —** Geographic distribution of content origin with bubble sizing by volume
 - **Rating Bar Chart —** Distribution of titles across audience rating categories
-- C**ountry Bar Chart —** Top 10 countries with Movie/TV Show split percentages
+- **Country Bar Chart —** Top 10 countries with Movie/TV Show split percentages
 
 ### Interactivity
 
@@ -129,7 +129,7 @@ The Power BI dashboard provides insights into:
 - Netflix content saw rapid growth post-2015, peaking in 2019 before declining
 - Movies dominate the platform, contributing ~71\% of total content, but TV Shows are strong in regions like South Korea and Japan
 - The United States has the highest content volume, followed by India, heavily movie-focused (~92\% ), and the UK
-- Drama and International genres are the most prevalent across the catalogue
+- Dramas and International content dominate the catalogue
 - Most titles fall under TV-MA and TV-14 ratings, indicating a mature audience focus
 - South Korea stands out as a TV Show–heavy market, reflecting strong regional series production
 
