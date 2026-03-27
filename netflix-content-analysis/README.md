@@ -1,20 +1,25 @@
 # Netflix Content Analysis (Power BI)
 
-An exploratory analysis of Netflix's content catalog using Power BI to understand trends in content production, genre distribution, ratings, and global availability.
+An exploratory analysis of Netflix's content catalogue using Power BI to understand trends in content production, genre distribution, ratings, and global availability.
 
 ---
 
 ## Dashboard Preview
 
-(Dashboard screenshot will be added here once the dashboard is complete)
+### Overview
+![Netflix Dashboard Overview](screenshots/dashboard_overview.png)
 
-![Netflix Dashboard](screenshots/dashboard-overview.png)
+### Country Interaction
+![Netflix Dashboard Filtered View (Country)](screenshots/dashboard_country_filter.png)
+
+### Filtered on Movies
+![Netflix Dashboard Filtered View (Movies)](screenshots/dashboard_movie_filter.png)
 
 ---
 
 ## Project Overview
 
-This project analyzes Netflix's content library to explore patterns in movies and TV shows available on the platform. The analysis focuses on understanding how Netflix's catalog has evolved over time and identifying trends in content type, genre popularity, ratings, and geographic distribution.
+This project analyses Netflix's content library to explore patterns in movies and TV shows available on the platform. The analysis focuses on understanding how Netflix's catalogue has evolved over time and identifying trends in content type, genre popularity, ratings, and geographic distribution.
 
 The results are presented through an interactive Power BI dashboard designed to highlight key insights about Netflix’s content strategy.
 
@@ -60,10 +65,11 @@ DAX
 This project follows a typical data analytics workflow:
 
 1. Data understanding and initial inspection  
-2. Data cleaning and transformation  
-3. Exploratory data analysis  
-4. Dashboard development in Power BI  
-5. Insight generation and interpretation  
+2. Data cleaning and transformation (Power Query)
+3. Feature engineering (DAX measures)
+4. Exploratory data analysis  
+5. Dashboard design and development
+6. Insight generation
 
 ---
 
@@ -71,32 +77,29 @@ This project follows a typical data analytics workflow:
 
 The Power BI dashboard provides insights into:
 
-- Total number of titles available on Netflix
+- Total number of titles, movies and TV shows available on Netflix (KPI cards)
 - Distribution of Movies vs TV Shows
-- Content additions over time
-- Most common genres on the platform
-- Geographic distribution of Netflix content
+- Content growth over time (trend analysis)
+- Top genres by content volume
+- Geographic distribution of Netflix content (map visualisation)
 - Rating distribution of titles
+- Top countries by content (Movies vs TV Shows split)
 
-Interactive filters allow exploration by:
+### Interactivity
 
-- Year
-- Genre
-- Country
-- Content type
+- Cross-filtering between visuals
+- Dynamic exploration by country and content type
 
 ---
 
 ## Key Insights
 
-(TBD)
-
-Examples of insights that will be explored:
-
-- Trends in Netflix content additions over time  
-- Distribution of movies versus TV shows  
-- Popular genres across the platform  
-- Regional content production patterns  
+- Rapid growth after 2015, with peak content addition in 2019
+- Movies dominate the platform (~70\% of content)
+- The United States leads in total content, followed by India and the UK
+- Dramas and International content are the most common genres
+- Some regions (e.g., South Korea, Japan) are TV Show-heavy while others focus on movies
+- Majority of content falls under TV-MA and TV-14 ratings
 
 ---
 
@@ -108,14 +111,20 @@ netflix-content-analysis
 ├── netflix_titles.csv
 ├── netflix_dashboard.pbix
 └── screenshots
-    └── dashboard-overview.png
+    └── dashboard_country_filter.png
+    └── dashboard_movie_filter.png
+    └── dashboard_overview.png
+    
 ```
 
 ---
 
 ## Future Improvements
 
-(TBD)
+- Add drill-through pages for deeper analysis
+- Include time-based filtering (year slicers)
+- Enhance storytelling with annotations
+- Optimise dashboard for mobile view
 
 ---
 
