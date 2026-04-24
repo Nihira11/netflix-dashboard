@@ -7,15 +7,15 @@ An exploratory analysis of Netflix's content catalogue using Power BI to uncover
 ## Dashboard Preview
 
 ### Overview
-![Overview](screenshots/dashboard_overview.png)
+![Overview](netflix-content-analysis/screenshots/dashboard_overview.png)
 *The overview page shows Netflix's full catalogue split across Movies (71%) and TV Shows (29%) with genre rankings, rating distribution, a content growth trend peaking in 2019 and a global map of content origin.*
 
 ### Country Interaction
-![Country](screenshots/dashboard_country_filter.png)
+![Country](netflix-content-analysis/screenshots/dashboard_country_filter.png)
 *Clicking a country on the map cross-filters all visuals, here showing how content mix, genre preferences and ratings shift dramatically by region.*
 
 ### Filtered on Movies
-![Movies](screenshots/dashboard_movie_filter.png)
+![Movies](netflix-content-analysis/screenshots/dashboard_movie_filter.png)
 *Filtering to Movies only reveals a different genre landscape. International Movies drop out of top position, Dramas and Comedies dominate and the US skews heavily movie-focused at 74.57%.*
 
 ---
@@ -53,7 +53,7 @@ The dataset contains information about movies and TV shows available on Netflix,
 Dataset file used in this project:
 
 ```
-netflix_titles.csv
+netflix-content-analysis/netflix_titles.csv
 ```
 
 ---
@@ -139,14 +139,13 @@ The Power BI dashboard provides insights into:
 
 ```
 netflix-content-analysis
-├── README.md
 ├── netflix_titles.csv
 ├── netflix_dashboard.pbix
 └── screenshots
     └── dashboard_country_filter.png
     └── dashboard_movie_filter.png
     └── dashboard_overview.png
-    
+README.md 
 ```
 
 ---
@@ -164,4 +163,8 @@ netflix-content-analysis
 
 ## Author
 
-Built as part of a Data Science \& Business Analytics portfolio
+Nihira Sharma  
+Data Science & Business Analytics Student  
+University of Sydney  
+
+GitHub: https://github.com/Nihira11 
